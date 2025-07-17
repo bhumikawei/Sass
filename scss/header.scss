@@ -1,0 +1,16 @@
+@import 'mixins-variables.scss'
+
+.header {
+    background-color: pink;
+
+    &.active {
+        background-color: aqua;
+    }
+    /*Nesting*/
+    a {
+        color: $primary-color;
+        &:hover {
+            color: $primary-color-hover;
+        }
+    }
+}
