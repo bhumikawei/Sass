@@ -1,9 +1,0 @@
-.header {
-  background-color: pink;
-  /*Nesting*/
-}
-.header.active {
-  color: blue;
-}
-
-/*# sourceMappingURL=header.css.map */
